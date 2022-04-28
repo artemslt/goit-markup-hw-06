@@ -818,12 +818,12 @@ img {
   display: inline-block;
   width: 16px;
   height: 15px;
-  background-image: url(/images/icon-nocheck.svg);
+  background-image: url(../images/icon-nocheck.svg);
   transition: background-image 250ms var(--animation-cube);
 }
 
 .conditions-checkbox:checked ~ .checkbox-icon {
-  background-image: url(/images/icon-check.svg);
+  background-image: url(../images/icon-check.svg);
 }
 
 .order-form-submit {
