@@ -341,6 +341,48 @@
     </main>
     <div class="backdrope is-hidden" data-modal>
       <div class="modal">
+        <p class="order-form-title">Оставьте свои данные, мы вам перезвоним</p>
+        <form class="order-form">
+          <label class="order-form-lable">
+            Имя
+            <input class="order-form-input" type="text" name="name" autofocus />
+            <svg class="form-icon" weight="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-person"></use>
+            </svg>
+          </label>
+          <label class="order-form-lable">
+            Телефон
+            <input class="order-form-input" type="tel" name="tel" />
+            <svg class="form-icon" weight="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-phone"></use>
+            </svg>
+          </label>
+          <label class="order-form-lable">
+            Почта
+            <input class="order-form-input" type="email" name="email" />
+            <svg class="form-icon" weight="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-email"></use>
+            </svg>
+          </label>
+          <label class="order-form-lable">
+            Комментарий
+            <textarea
+              class="order-form-textarea"
+              name="commit"
+              cols="30"
+              rows="5"
+              placeholder="Введите текст"
+            ></textarea>
+          </label>
+          <label class="order-form-conditions">
+            <input class="conditions-checkbox" type="checkbox" name="conditions" />
+            Соглашаюсь с рассылкой и принимаю
+            <a class="conditions-link" href="#">Условия договора</a>
+            <span class="checkbox-icon"></span>
+          </label>
+          <button type="submit" class="order-form-submit">Отправить</button>
+        </form>
+
         <button class="modal-button" data-modal-close>
           <svg class="modal-esc-icon" width="11px" height="11px">
             <use href="./images/symbol-defs.svg#icon-esc"></use>
@@ -392,6 +434,18 @@
             </li>
           </ul>
         </div>
+        <form class="signup-form">
+          <label>
+            <p class="signup-form-title">Подпишитесь на рассылку</p>
+            <input class="singup-input" type="email" name="email" placeholder="E-mail" />
+          </label>
+          <button class="submit-button" type="submit">
+            <span>Подписаться</span>
+            <svg class="signup-button-icon" weight="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
 
